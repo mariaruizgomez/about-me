@@ -9,6 +9,7 @@ body {
   margin-top: 100px;
   font-size: var(--my-font-family);
   background-color: #fff8ea;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -23,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 45px;
   line-height: 1.2;
   color: #d7c0ae;
 }
@@ -124,23 +125,23 @@ footer {
   color: var(--primary-color);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 30px;
     text-align: center;
   }
   h2,
   h3 {
-    font-size: 25px;
-    text-align: left;
+    font-size: 20px;
     text-align: center;
   }
 
   .primary-link {
     display: block;
     text-align: center;
+    margin: 0 20px;
   }
-  #img-main-page {
-    display: none;
+  p {
+    text-align: center;
   }
 }
