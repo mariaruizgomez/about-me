@@ -40,6 +40,9 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+footer {
+  text-align: center;
+}
 
 .navigation-links {
   display: flex;
@@ -117,8 +120,11 @@ p {
 .button {
   color: #fff8ea;
 }
+.source-code-link {
+  color: var(--primary-color);
+}
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 30px;
     text-align: center;
@@ -126,20 +132,15 @@ p {
   h2,
   h3 {
     font-size: 25px;
+    text-align: left;
     text-align: center;
   }
 
   .primary-link {
     display: block;
-    margin: 0 90px;
     text-align: center;
-    padding: 20px 15px;
   }
-}
-
-.source-code-link {
-  color: var(--primary-color);
-}
-footer {
-  text-align: center;
+  #img-main-page {
+    display: none;
+  }
 }
