@@ -25,13 +25,13 @@ h1 {
 h2 {
   font-size: 48px;
   line-height: 1.2;
-   color: #D7C0AE;
+  color: #d7c0ae;
 }
 
 h3 {
   font-size: 24px;
   opacity: 0.7;
-  color: #D7C0AE;
+  color: #d7c0ae;
 }
 
 p {
@@ -127,11 +127,12 @@ p {
   h3 {
     font-size: 20px;
     text-align: center;
+    margin-top: 15px;
   }
 
   .primary-link {
     display: block;
-    margin: 0 130px;
+    margin: 0 90px;
     text-align: center;
     padding: 20px 15px;
   }
@@ -139,7 +140,6 @@ p {
 
 .source-code-link {
   color: var(--primary-color);
-  
 }
 footer {
   text-align: center;
