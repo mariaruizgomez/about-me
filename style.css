@@ -36,6 +36,7 @@ p {
   display: block;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .navigation-links {
@@ -78,7 +79,8 @@ p {
   margin: 10px;
 }
 
-.email-link {
+.email-link,
+.source-code-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
@@ -131,4 +133,9 @@ p {
     text-align: center;
     padding: 20px 15px;
   }
+}
+
+.source-code-link {
+  color: var(--primary-color);
+  
 }
