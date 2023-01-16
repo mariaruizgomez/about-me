@@ -118,16 +118,15 @@ p {
   color: #fff8ea;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 450px) {
   h1 {
     font-size: 30px;
     text-align: center;
   }
   h2,
   h3 {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 15px;
   }
 
   .primary-link {
